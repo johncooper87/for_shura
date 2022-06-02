@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+
+    "outDir": "dist",
+    "module": "CommonJS",
+    "target": "ES2015",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowJs": true,
+
+    "baseUrl": "./src",
+  },
+
+  "include": [
+    "src"
+  ],
+
+  "ts-node": {
+    "transpileOnly": true,
+  },
+
+}

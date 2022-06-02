@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "puppeteer": "^13.4.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.5.0",
+    "typescript": "^4.6.2"
+  },
+  "scripts": {
+    "start": "npx ts-node-dev --exit-child ./src/bootstrap.ts",
+    "start-prod": "npx ts-node ./src/bootstrap.ts"
+  }
+}

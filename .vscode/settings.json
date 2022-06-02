@@ -1,0 +1,25 @@
+{
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+
+
+  "emmet.triggerExpansionOnTab": true,
+
+  "files.exclude": {
+    "node_modules": true,
+  },
+
+  "explorer.autoReveal": false,
+  "explorer.compactFolders": false,
+
+  "code-runner.executorMap": {
+    "typescript": "npx ts-node --transpile-only",
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+
+  "emmet.includeLanguages": {
+    "ejs": "html",
+  },
+}
